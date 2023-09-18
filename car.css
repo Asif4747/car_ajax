@@ -1,0 +1,34 @@
+body{
+    background-color:#212A3E;
+ 
+}
+
+.carSpecification{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+   row-gap: 20em;
+}
+.carDetail,.container{
+    background-color: rgba(255, 255, 255,.8);
+
+}
+
+.carDetail,h1{
+    color: #212A3E;
+    text-align: center;
+}
+.carDetail,img{
+    width:250px;
+     height:250px;
+     
+}
+.container {
+    
+    text-align: center;
+    padding: 10px 20px;
+    color:rgb(245, 10, 10);
+
+  }
+
+
+  
